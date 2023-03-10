@@ -58,13 +58,22 @@ sudo mv squashfs-root /
 sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
 
 sudo apt install ripgrep fd-find golang-go cargo ruby-full python3-pip default-jre default-jdk luarocks npm php-cli unzip xsel python3.10-venv
+sudo npm install eslint markdownlint-cli2 bash-language-server -g
+sudo apt install stylish-haskell
+sudo snap install powershell --classic
+
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
+
 curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
 HASH=`curl -sS https://composer.github.io/installer.sig`
 php -r "if (hash_file('SHA384', '/tmp/composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
 sudo php /tmp/composer-setup.php --install-dir=/usr/local/bin --filename=composer
-sudo npm install markdownlint-cli2 bash-language-server -g
+
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit /usr/local/bin
 ```
 
 ### Markdown-preview :zap:
@@ -83,5 +92,4 @@ yarn install
 sudo apt install pkg-config libgtk-3-dev build-essential
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 git clone https://github.com/mwh/dragon.git; cd dragon; make install
-sudo pacman -Sy ueberzug
 ```
