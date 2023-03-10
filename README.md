@@ -57,13 +57,12 @@ chmod u+x nvim.appimage
 sudo mv squashfs-root /
 sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
 
-sudo apt install ripgrep fd-find golang-go cargo ruby-full python3-pip default-jre default-jdk luarocks npm php-cli unzip xsel python3.10-venv
+sudo apt install ripgrep fd-find golang-go cargo ruby-full python3-pip default-jre default-jdk luarocks npm php-cli unzip xsel python3.10-venv rpcbind stylish-haskell
 sudo npm install eslint markdownlint-cli2 bash-language-server -g
-sudo apt install stylish-haskell
 sudo snap install powershell --classic
 
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs
+sudo apt install -y nodejs
 
 curl -sS https://getcomposer.org/installer -o /tmp/composer-setup.php
 HASH=`curl -sS https://composer.github.io/installer.sig`
