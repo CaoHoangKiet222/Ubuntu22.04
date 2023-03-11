@@ -17,7 +17,7 @@ Change directory to `Ubuntu22.04/config`
 cd Ubuntu22.04/config
 ```
 
-To install a package configuration, list all folders'name in directory `Ubuntu22/config` and `stow` the config you want
+To install a package configuration, list all folders'name in directory `Ubuntu22.04/config` and `stow` the config you want
 
 ```bash
 stow nvim -t ~
