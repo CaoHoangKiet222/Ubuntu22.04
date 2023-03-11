@@ -32,7 +32,7 @@ sudo mv /usr/bin/alacritty /usr/bin/alacritty.bak
 sudo cp ./target/release/alacritty /usr/bin
 ```
 
-### Zsh :file_folder:
+### Zsh :zany_face:
 
 ```
 sudo apt install zsh
