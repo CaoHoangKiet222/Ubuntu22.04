@@ -57,7 +57,7 @@ chmod u+x nvim.appimage
 sudo mv squashfs-root /
 sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
 
-sudo apt install ripgrep fd-find golang-go cargo ruby-full python3-pip default-jre default-jdk luarocks npm php-cli unzip xsel python3.10-venv rpcbind stylish-haskell
+sudo apt install ripgrep fd-find golang-go cargo ruby-full python3-pip openjdk-17-jre openjdk-17-jdk luarocks npm php-cli unzip xsel python3.10-venv rpcbind stylish-haskell
 sudo npm install eslint markdownlint-cli2 bash-language-server -g
 sudo snap install powershell --classic
 
