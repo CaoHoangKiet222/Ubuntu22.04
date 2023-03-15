@@ -9,10 +9,7 @@ sudo apt install gnome-shell-extension-manager flameshot xdotool curl git htop
 sudo add-apt-repository universe
 sudo apt install gnome-tweaks
 
-curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
-sudo apt install yarn
-sudo curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+sudo npm install -g yarn
 ```
 
 ```
