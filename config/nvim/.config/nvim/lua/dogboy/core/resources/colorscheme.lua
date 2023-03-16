@@ -24,13 +24,13 @@ return {
         italic_comments = true,
         filter = "spectrum",       -- classic | octagon | pro | machine | ristretto | spectrum
         inc_search = "background", -- underline | background
-        background_clear = { "neo-tree" },
+        background_clear = { "telescope" },
         diagnostic = {
           background = true,
         },
         plugins = {
           bufferline = {
-            underline_selected = true,
+            underline_selected = false,
             underline_visible = false,
             bold = false,
           },

@@ -21,6 +21,7 @@ null_ls.setup({
   sources = {
     formatting.prettier.with({ extra_args = {} }),
     --[[ formatting.black.with({ extra_args = { "--fast" } }), ]]
+    formatting.phpcbf,
     formatting.autopep8,
     formatting.stylua,
     formatting.google_java_format,
