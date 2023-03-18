@@ -118,9 +118,9 @@ return {
     "NvChad/nvim-colorizer.lua",
     event = "BufReadPre",
     config = function() require("dogboy.config.colorizer") end,
-    {
-      "s1n7ax/nvim-window-picker",
-      config = function() require("window-picker").setup() end,
-    },
+  },
+  {
+    "s1n7ax/nvim-window-picker",
+    config = function() require("window-picker").setup() end,
   },
 }
