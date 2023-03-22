@@ -36,3 +36,8 @@ In order to install all packages
 ```bash
 stow -t ~ *
 ```
+
+<p align="center">
+ <img width="45%" src="https://github.com/CaoHoangKiet222/Ubuntu22.04/images/blob/main/images/screenshot1.png?raw=true">
+ <img width="45%" src="https://github.com/CaoHoangKiet222/Ubuntu22.04/images/blob/main/images/screenshot2.png?raw=true" /> 
+</p>
