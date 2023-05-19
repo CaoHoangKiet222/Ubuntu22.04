@@ -24,7 +24,7 @@ null_ls.setup({
     formatting.phpcbf,
     formatting.autopep8,
     formatting.stylua,
-    formatting.google_java_format,
+    -- formatting.google_java_format,
     formatting.clang_format,
     formatting.tidy,
     --[[ diagnostics.flake8, ]]

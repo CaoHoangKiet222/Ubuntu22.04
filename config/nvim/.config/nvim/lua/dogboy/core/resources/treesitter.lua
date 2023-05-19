@@ -20,6 +20,9 @@ return {
           "typescript",
           "vim",
           "yaml",
+          "java",
+          "dockerfile",
+          "cpp",
         },
         sync_install = false,                                -- install languages synchronously (only applied to `ensure_installed`)
         ignore_install = { "phpdoc", "tree-sitter-phpdoc" }, -- List of parsers to ignore installing

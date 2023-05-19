@@ -30,6 +30,7 @@ project.setup({
     "Makefile",
     "package.json",
     "pom.xml",
+    "build.gradle",
     ">polybar",
     ">bspwm",
     ".vscode",
