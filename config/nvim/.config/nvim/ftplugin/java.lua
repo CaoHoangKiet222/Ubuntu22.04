@@ -22,6 +22,9 @@ local config = {}
 
 config.settings = {
   java = {
+    project = {
+      referencedLibraries = {},
+    },
     eclipse = {
       downloadSources = true,
     },
