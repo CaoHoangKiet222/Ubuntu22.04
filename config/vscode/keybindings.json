@@ -18,5 +18,10 @@
     "key": "ctrl+cmd+t",
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "editorTextFocus || terminalFocus || vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+cmd+b",
+    "command": "editor.action.goToImplementation",
+    "when": "editorTextFocus || vim.mode == 'Normal'"
   }
 ]
