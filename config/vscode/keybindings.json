@@ -1,0 +1,22 @@
+[
+  {
+    "key": "escape",
+    "command": "workbench.action.closeQuickOpen",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!inQuickOpen && !editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+d",
+    "command": "workbench.action.closeEditorsInGroup",
+    "when": "editorTextFocus || vim.mode == 'Normal'"
+  },
+  {
+    "key": "ctrl+cmd+t",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "editorTextFocus || terminalFocus || vim.mode == 'Normal'"
+  }
+]
